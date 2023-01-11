@@ -21,7 +21,8 @@ Therefore, to create a master dataset containing the cyclists data for the year 
 3. Visualize the data initially using ggplot on filtered data in R.
 4. Exported top 30 cyclists data by duration for both casual and member of the organization for further exploration in Tableau.
 
-5. 
+5. Finding the most used stations for both type of users and lowest. It would be helpful for targetting the future members using Tableau.
+6. The change in ride duration and length depending on seasonality and weekday using Tableau.
 
 Key Findings : 
 
