@@ -17,10 +17,27 @@ Steps :
 
 Therefore, to create a master dataset containing the cyclists data for the year 2021 and 2022 respectively, I used SQL and imported the data as a csv file for wrangling and initial visualization in R.
 
-2. 
+2. Used R for wrangling the data. Cleaning the NAs, transforming and doing necessary matheamatical operation  on the existing ones for getting the insight. 
+3. Visualize the data initially using ggplot on filtered data in R.
+4. Exported top 30 cyclists data by duration for both casual and member of the organization for further exploration in Tableau.
+
+5. 
+
+Key Findings : 
+
+1. Members use the service for daily use and casual cyclists use for recreation.
+2. From 2021 to 2022 , there is a increase in number of casual cyclists.
+3. There is a dicrease average riding distance in 2022 compared to 2022.
+4. Among both type of cyclists, casual cyclists use for long duration and long distances.
+5. Preferred bike is classic bikes and docker is not used much by either type of cyclists. 
+
+Recommendation : 
 
 
-
+1. Remove the docker bikes as no one uses them. This will reduce the maintenance cost.
+2. Look into the fact that the average duration of cycling of members is reduced. Need to have a survey among members to find out the reason and increase the usuage.
+3. Target marketing campaigns towards summer to convert casual riders into annual members
+3. Although there is a positive trend of increased member is being seen from 2021 to 2022. Need to run promotion on weekends on the usefulness of being a member and the benefit of using the cycle on daily commute to reach maximum number of casual cyclists. 
 
 
 
