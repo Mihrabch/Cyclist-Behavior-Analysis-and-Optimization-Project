@@ -13,13 +13,17 @@ This is public data that you can use to explore how different customer types are
 Project : 
 
 Steps :
+SQL :
 1. Due to the size of the dataset, Microsoft Excel would fail and uploading it will take a huge time and Google Excel will eventually time consuming because of the size.
 
 Therefore, to create a master dataset containing the cyclists data for the year 2021 and 2022 respectively, I used SQL and imported the data as a csv file for wrangling and initial visualization in R.
 
+R - Programming:
 2. Used R for wrangling the data. Cleaning the NAs, transforming and doing necessary matheamatical operation  on the existing ones for getting the insight. 
 3. Visualize the data initially using ggplot on filtered data in R.
 4. Exported top 30 cyclists data by duration for both casual and member of the organization for further exploration in Tableau.
+
+Tableau : 
 
 5. Finding the most used stations for both type of users and lowest. It would be helpful for targetting the future members using Tableau.
 6. The change in ride duration and length depending on seasonality and weekday using Tableau.
@@ -38,7 +42,7 @@ Recommendation :
 1. Remove the docker bikes as no one uses them. This will reduce the maintenance cost.
 2. Look into the fact that the average duration of cycling of members is reduced. Need to have a survey among members to find out the reason and increase the usuage.
 3. Target marketing campaigns towards summer to convert casual riders into annual members
-3. Although there is a positive trend of increased member is being seen from 2021 to 2022. Need to run promotion on weekends on the usefulness of being a member and the benefit of using the cycle on daily commute to reach maximum number of casual cyclists. 
+4. Although there is a positive trend of increased member is being seen from 2021 to 2022, some stations loosing members. Need to run promotion on weekends on the usefulness of being a member and the benefit of using the cycle on daily commute to reach maximum number of casual cyclists. 
 
 
 
