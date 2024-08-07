@@ -10,39 +10,38 @@ https://divvytripdata.s3.amazonaws.com/index.html.
 (Note: The datasets have a different name because Cyclistic is a fictional company. Motivate International Inc. has made the data available under this license.) 
 This is public data you can use to explore how different customer types use Cyclistic bikes. But note that data privacy issues prohibit you from using riders’ personally identifiable information. This means that you won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
 
-Project : 
+## Project : Cyclist Behavior Analysis and Optimization Project
 
-Steps :
-SQL :
-1. Due to the size of the dataset, Microsoft Excel would fail, and uploading it will take a huge time, and Google Excel will eventually be time-consuming because of the size.
 
-Therefore, to create a master dataset containing the cyclist's data for the years 2021 and 2022, respectively, I used SQL and imported the data as a CSV file for wrangling and initial visualization in R.
+## Steps :
+### SQL :
+1. Due to the dataset's size, using Microsoft Excel and Google Sheets was impractical. I used SQL to create a master dataset containing cyclist data for 2021 and 2022, imported it as a CSV file, and performed data wrangling and initial visualization in R.
 
-R - Programming:
-2. Used R for wrangling the data. Cleaning the NAs, transforming them, and doing necessary mathematical operations  on the existing ones to get the insight. 
-3. Visualize the data initially using ggplot on filtered data in R.
-4. Exported top 30 cyclists' data by duration for both casual and members of the organization for further exploration in Tableau.
+### R - Programming:
+2.. Utilized R for data wrangling, including cleaning NAs, transforming data, and performing necessary mathematical operations for insights.
+3. Initially visualized the data using ggplot on filtered data in R.
+4. Exported the top 30 cyclists' data by duration for both casual and organization members for further exploration in Tableau.
 
-Tableau : 
+### Tableau : 
 
-5. Finding the most used stations for both types of users and the lowest. It would be helpful for targeting future members using Tableau.
-6. The change in ride duration and length depends on seasonality and weekday using Tableau.
+5. Analyzed the most and least used stations for both casual users and members to target future members using Tableau.
+6. Examined changes in ride duration and length based on seasonality and weekdays using Tableau.
 
-Key Findings : 
+## Key Findings : 
 
-1. Members use the service for daily use, and casual cyclists use it for recreation.
+1. Members use the service for daily commuting, while casual cyclists use it for recreation.
 2. From 2021 to 2022, the number of casual cyclists increased.
-3. There is a decrease in average riding distance in 2022 compared to 2021.
-4. Among both types of cyclists, casual cyclists use for long duration and long distances.
-5. Preferred bike is classic bikes, and docker is not used much by either type of cyclist. 
+3. There was a decrease in the average riding distance in 2022 compared to 2021.
+4. Casual cyclists tend to ride for longer durations and distances compared to members.
+5. Classic bikes are preferred by both types of cyclists, while dockers are rarely used.
 
 Recommendation : 
 
 
-1. Remove the docker bikes, as no one uses them. This will reduce the maintenance cost.
-2. Look into the fact that the average duration of cycling of members is reduced. Need to have a survey among members to find out the reason and increase the usage.
-3. Target marketing campaigns towards summer to convert casual riders into annual members
-4. Although a positive trend exists of increased membership from 2021 to 2022, some stations are losing members. Need to run a promotion on weekends on the usefulness of being a member and the benefit of using the cycle on the daily commute to reach the maximum number of casual cyclists. 
+1. Remove docker bikes, as no one uses them, to reduce maintenance costs.
+2. Investigate the reduced average cycling duration among members with a survey to identify reasons and boost usage.
+3. Target marketing campaigns during summer to convert casual riders into annual members.
+4. Despite the positive trend in membership from 2021 to 2022, some stations are losing members; run weekend promotions highlighting the benefits of membership and daily commuting to attract more casual cyclists.
 
 
 
