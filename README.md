@@ -36,7 +36,7 @@ This is public data you can use to explore how different customer types use Cycl
 4. Casual cyclists tend to ride for longer durations and distances compared to members.
 5. Classic bikes are preferred by both types of cyclists, while dockers are rarely used.
 
-Recommendation : 
+## Recommendation : 
 
 
 1. Remove docker bikes, as no one uses them, to reduce maintenance costs.
