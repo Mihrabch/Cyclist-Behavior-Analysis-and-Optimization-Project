@@ -16,7 +16,7 @@ This is public data you can use to explore how different customer types use Cycl
 
 ## Steps :
 ### SQL :
-1. Due to the dataset's size, using Microsoft Excel and Google Sheets was impractical. I used SQL to create a master dataset containing cyclist data for 2021 and 2022, imported it as a CSV file, and performed data wrangling and initial visualization in R.
+1. Due to the dataset's size (over 1 million records), using Microsoft Excel and Google Sheets was impractical. I used SQL to create a master dataset containing cyclist data for 2021 and 2022, imported it as a CSV file, and performed data wrangling and initial visualization in R.
 
 ### R - Programming:
 2.. Utilized R for data wrangling, including cleaning NAs, transforming data, and performing necessary mathematical operations for insights.
